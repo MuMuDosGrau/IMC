@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>calculador de IMC</title>
+
+</head>
+
+<body>
+    <img src="logo.png">
+    <h1>Avaliação CBF</h1>
+    <form>
+
+        <label for="nome">Nome</label>
+        <input placeholder="Ximbinha" name="nome" type="text" />
+
+        <label for="altura">Altura</label>
+        <input placeholder="1.80" name="altura" type="text">
+
+        <label for="peso">Peso</label>
+        <input placeholder="60" name="peso" type="text" />
+
+        <label for="descricao">Descricao</label>
+        <input placeholder="Breve descrição do jogador" name="descricao" type="text" />
+
+        <label for="foto">Foto</label>
+        <input placeholder="Http de sua foto" name="foto" type="text" />
+
+
+        <button type="submit">Calcular</button>
+    </form>
+
+
+    <div>
+        <img id="fotoJogador"/>
+        <ul>
+        <li id="nome">Nome do Jogador: </li>
+        <li id="descricao">Descrição</li>
+        <li id="altura">Altura: </li>
+        <li id="peso">Peso: </li>
+        <li id="imc">IMC: </li>
+        </ul>
+        
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
